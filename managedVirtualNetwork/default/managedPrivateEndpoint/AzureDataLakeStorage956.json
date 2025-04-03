@@ -1,0 +1,7 @@
+{
+	"name": "AzureDataLakeStorage956",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/90a16eab-0856-407a-b1b1-08388a3f216e/resourceGroups/japan/providers/Microsoft.Storage/storageAccounts/vg2sm01",
+		"groupId": "dfs"
+	}
+}
