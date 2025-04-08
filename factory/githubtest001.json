@@ -1,5 +1,13 @@
 {
 	"name": "githubtest001",
+	"properties": {
+		"globalParameters": {
+			"parameter": {
+				"type": "string",
+				"value": "a"
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
