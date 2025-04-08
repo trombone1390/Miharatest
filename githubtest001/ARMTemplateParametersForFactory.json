@@ -16,6 +16,12 @@
 		},
 		"AzureDataLakeStorage956_properties_groupId": {
 			"value": "dfs"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "synapse0808.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "master"
 		}
 	}
 }
