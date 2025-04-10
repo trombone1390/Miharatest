@@ -5,17 +5,19 @@
 			"parameter": {
 				"type": "string",
 				"value": "a"
-			},
-			"Parameter002": {
-				"type": "string",
-				"value": "b"
 			}
 		}
 	},
 	"location": "eastus",
 	"identity": {
-		"type": "SystemAssigned",
+		"type": "SystemAssigned,UserAssigned",
 		"principalId": "05d0200e-113f-4091-965d-98e1b15bbeb4",
-		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3",
+		"userAssignedIdentities": {
+			"/subscriptions/90a16eab-0856-407a-b1b1-08388a3f216e/resourcegroups/japan/providers/Microsoft.ManagedIdentity/userAssignedIdentities/user0814": {
+				"clientId": "aae15f29-1954-42a9-a7a4-e62a4ce72df8",
+				"principalId": "b49fda03-694d-458f-8ce1-8e09428632d9"
+			}
+		}
 	}
 }
