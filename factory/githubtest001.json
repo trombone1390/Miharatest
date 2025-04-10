@@ -5,6 +5,10 @@
 			"parameter": {
 				"type": "string",
 				"value": "a"
+			},
+			"Parameter002": {
+				"type": "string",
+				"value": "b"
 			}
 		}
 	},
