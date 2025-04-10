@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime4",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/90a16eab-0856-407a-b1b1-08388a3f216e/resourcegroups/japan/providers/Microsoft.DataFactory/factories/kensyoADF001/integrationruntimes/integrationRuntime2",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
